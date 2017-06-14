@@ -1,0 +1,104 @@
+#container4 .zhujue{
+    width: 1240px;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -620px;
+    transition: all 0.7s ease-out;
+}
+#container4 .zhujue.on,#container4 .shengyou.on,#container4 .peiyue.on{
+    opacity: 1;
+    top: 207px;
+}
+#container4 .zhujue .zhujue_title{
+    width: 320px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#container4 .zhujue_title a{
+    float: left;
+    width: 152px;
+    height: 53px;
+    font-size: 24px;
+    color: #feeecf;
+    text-align: center;
+    line-height: 53px;
+    background: url(../img/zj_icon_b690ee2.png) no-repeat 0 0;
+}
+#container4 .zhujue_title .a1.on,#container4 .zhujue_title .a1:hover{
+    height: 56px;
+    color: #a8813c;
+    background: url(../img/zj_icon_ac_72c4a97.png) no-repeat 0 0;
+}
+#container4 .zhujue_title  .a2{
+    margin-left: 15px;
+}
+#container4 .zhujue_title  .a2:hover,#container4 .zhujue_title  .a2.on{
+    height: 56px;
+    color: #a8813c;
+    background: url(../img/zj_icon_ac_72c4a97.png) no-repeat 0 0;
+}
+
+#container4 .zhujue .zhujue_center{
+    width: 1240px;
+    height: 434px;
+    margin: 0 auto;
+}
+#container4 .zhujue .shishen_center {
+    width: 1240px;
+    height: 434px;
+    margin: 0 auto;
+    opacity: 0;
+    position: absolute;
+    top: 105px;
+    transition: all 0.7s ease-out;
+}
+#container4 .zhujue .shishen_center.on,#container2 .zhujue .shishen_center1.on{
+    opacity: 1;
+}
+
+#container4 .zhujue_center .zj{
+    position: relative;
+    float: left;
+    width: 283px;
+    height: 434px;
+    margin: 0 13px;
+    overflow: hidden;
+    background: url(../img/card_bg_cv_1506b47.png) no-repeat 0 0;
+}
+#container4 .ssjz_pic{
+    height: 342px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+#container4 .ssjz_pic img{
+    display: block;
+    margin: 14px auto;
+    width: 254px;
+    height: 406px;
+}
+#container4 .ssiz_txt{
+    padding-left: 13px;
+}
+#container4 .ssiz_txt h3{
+    position: relative;
+    color: #34241c;
+    font-size: 16px;
+    width: 160px;
+    line-height: 26px;
+}
+#container4 .ssiz_txt a{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    right: 0;
+    background-repeat: no-repeat;
+    background: url(../img/index_z_d844bc8.png) no-repeat -734px -124px;
+}
+#container4 .ssiz_txt p{
+    width: 254px;
+    line-height: 20px;
+    color: #aba7a5;
+    font-size: 14px;
+}
